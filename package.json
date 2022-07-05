@@ -1,0 +1,21 @@
+{
+  "name": "express-proxy",
+  "version": "1.0.0",
+  "description": "A proxy server written in ExpressJS to get around open APIs that haven't figured out how CORS works.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Sam Hooker",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
