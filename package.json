@@ -1,7 +1,7 @@
 {
   "name": "express-proxy",
   "version": "1.0.0",
-  "description": "A proxy server written in ExpressJS to get around open APIs that haven't figured out how CORS works.",
+  "description": "A proxy server written in ExpressJS to get around open APIs that throw CORS issues when called from the client.",
   "main": "index.js",
   "type": "module",
   "scripts": {
